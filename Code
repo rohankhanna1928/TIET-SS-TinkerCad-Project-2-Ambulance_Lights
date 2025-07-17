@@ -1,0 +1,21 @@
+// C++ code
+//
+int Mlue = 13;
+int Red = 12;
+void setup()
+{
+  pinMode(Mlue, OUTPUT);
+  pinMode(Red, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(Mlue, HIGH);
+  delay(100); // Wait for 1000 millisecond(s)
+  digitalWrite(Mlue, LOW);
+  delay(100);
+  digitalWrite(Red, HIGH);
+  delay(100);
+  digitalWrite(Red, LOW);
+  delay(100); // Wait for 1000 millisecond(s)
+}
